@@ -4,13 +4,13 @@ focuses on implementing a robust parser in C++ for a simplified programming lang
 
 ## Project Objectives
 
-1. File Input Handling: The program reads input data from a file named "InputFile.txt" containing the code to be processed. 
-2. Support for Multiple Data Types: Capable of handling diverse data types such as integers, floats, and more complex types like long long.
-3. Control Flow Parsing: Specifically parses if and while statements according to a defined context-free grammar (CFG).
-4. Tokenization: Before parsing, the input code undergoes tokenization, identifying keywords, identifiers, operators, numbers, declarations, punctuation, and errors.  
-5. Parse Tree Generation: Utilizes a CFG to generate a parse tree that mirrors the syntactic structure of the input code. 
-6. Visualization with Graphviz: Provides functionality to visually represent the parse tree using Graphviz. 
-7. Comment Removal: Includes a feature to remove both single-line and multi-line comments from the code while ensuring the parser's functionality remains intact.
+1. **File Input Handling**: The program reads input data from a file named "InputFile.txt" containing the code to be processed. 
+2. **Support for Multiple Data Types**: Capable of handling diverse data types such as integers, floats, and more complex types like long long.
+3. **Control Flow Parsing**: Specifically parses if and while statements according to a defined context-free grammar (CFG).
+4. **Tokenization**: Before parsing, the input code undergoes tokenization, identifying keywords, identifiers, operators, numbers, declarations, punctuation, and errors.  
+5. **Parse Tree Generation**: Utilizes a CFG to generate a parse tree that mirrors the syntactic structure of the input code. 
+6. **Visualization with Graphviz**: Provides functionality to visually represent the parse tree using Graphviz. 
+7. **Comment Removal**: Includes a feature to remove both single-line and multi-line comments from the code while ensuring the parser's functionality remains intact.
 
 ## Context-Free Grammar (CFG)
 
