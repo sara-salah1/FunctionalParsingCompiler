@@ -61,24 +61,24 @@ focuses on implementing a robust parser in C++ for a simplified programming lang
 
 
   ## Input Code Sample: 
-    ```c++
-    int x = 1 ;
-    float y;
-    double temp;
-    while(x<3)
-    {
-     y = 10.4;
-     // z = 70;
-     y = y + 3e1;
-     
-    }
-    if(x==10)
-      temp = 3.33;
-    else if(x <2)
-       temp = 30;
-    else
-       temp = 0;
-    ```
+```c++
+int x = 1 ;
+float y;
+double temp;
+while(x<3)
+{
+y = 10.4;
+// z = 70;
+y = y + 3e1;
+
+}
+if(x==10)
+ temp = 3.33;
+else if(x <2)
+  temp = 30;
+else
+  temp = 0;
+```
 
   ## Parse Tree for this sample Code:
 ![parsetree](https://github.com/sara-salah1/FunctionalParsingCompiler/assets/67710906/856d8726-547e-4501-92cb-fb3086397939)
